@@ -1,0 +1,51 @@
+p { margin: 5px 5px 0px 20px; line-height: 120%; }
+body { font-size: 15px; }
+
+.TITLEFONT { font-family: 'Architects Daughter', 'Gamja Flower'; font-size: 50px; }
+
+.red { color: red; }
+.background_green { background-color: #CFFFE5; }
+.background_green:hover { background-color: #004B49; color: white; }
+.background_red { background-color: #FFB69F; }
+.background_red:hover { background-color: #560E0D; color: white; }
+.background_blue { background-color: #AECBD6; }
+.background_blue:hover { background-color: #030C54; color: white; }
+.background_black { background-color: #DEDEDE; }
+.background_black:hover { background-color: black; color: white; }
+
+.bold { font-weight: bold; }
+
+.no_button { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: black;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px;
+				outline: 0; }
+.title_button { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+.title_button:hover { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: black;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+
+.user_button { text-align: center;
+				width: 120px; height: 30px;
+				margin: 0px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
+.user_button:hover { text-align: center;
+				width: 120px; height: 30px;
+				margin: 0px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
