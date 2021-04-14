@@ -80,7 +80,7 @@ img.item:not(:hover) { transform: scale(1/9, 1/9); transform-origin: bottom righ
 .header_animation { position: relative;
 				animation: right_to_left linear 2s; }
 @keyframes right_to_left {
-				0%   {left: 1000px; top: 0px;}
+				0%   {left: 1020px; top: 0px;}
 				100% {left: 0px; top: 0px;} }
 
 .flax_container { display: flex;
