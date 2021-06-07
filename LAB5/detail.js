@@ -64,14 +64,16 @@ function display (json) {
 }
 
 function submitNewComment (button) {
-    $.ajax ({
-        url: "./:" + String(data.product_id),
-        type: "POST",
-        data: {
-            newComment: $("input#new_comment").val()
-        },
-        success: function (data) {
-            console.log(data);
-        }
-    })
+    if ($("input#new_comment").val() != "") {
+        $.ajax ({
+            url: "./:" + String(data.product_id),
+            type: "POST",
+            data: {
+                newComment: $("input#new_comment").val()
+            },
+            success: function (data) {
+                console.log(data);
+            }
+        })
+    }
 }
