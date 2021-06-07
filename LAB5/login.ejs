@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LOGIN</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">	
+	</head>
+	
+	<body class="center_align">
+		<br><div class="TITLEFONT">
+			<p>WELCOME TO 권동욱's<br>INTERNET-PROGRAMMING SHOP</p>
+		</div><br><br>
+		<p><button type="button" style="margin-right: 3px;" class="title_button" onclick="location.href='./'">메인페이지</button>
+			<button type="button" style="margin-right: 3px;" class="no_button">로그인</button>
+			<button type="button" style="margin-left: 3px;" class="title_button" onclick="location.href='./signup'">회원가입</button></p>
+		<hr width="100%" color="black" size="3"><br>
+		<p class="bold">회원 정보</p>
+		<form method="post" action="./login.html" autocomplete="on">
+			<p><label>아이디: 
+				<input type="text" id="user_id" autofocus
+					placeholder="아이디를 입력하세요" required />
+				</label></p>
+			<p><label>비밀번호: 
+				<input type="text" id="user_password"
+					placeholder="비밀번호를 입력하세요" required />
+				</label></p>
+			<p><button type="submit" style="margin-right: -4px;" class="background_blue user_button">로그인</button>
+				<button type="reset" style="margin-left: -3px;" class="background_black user_button">취소</button></p>
+		</form>
+		<hr width="100%" color="black" size="3">
+	</body>
+</html>
